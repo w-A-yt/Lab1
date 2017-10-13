@@ -30,7 +30,7 @@ public class Main {
 		String func;
 		System.out.println('\n'+"查询桥接词按1，生成新文本按2，最短路径按3，随机游走按4，退出按5：");
 		func = sc.nextLine();
-		while(func.equals("5")==false) {
+		
 			if(func.equals("1")==true) {
 				String QS1,QS2;
 		        System.out.println("输入词桥查询的单词1：");
@@ -51,7 +51,7 @@ public class Main {
 		        }
 		        
 			}else if(func.equals("2")==true) {
-				System.out.println("请输入文本：");
+				System.out.println("请输入文本文件：");
 				String NT;
 				NT = sc.nextLine();//Seek to explore new and exciting synergies
 				g.generateNewText(NT);			
@@ -73,7 +73,7 @@ public class Main {
 			}
 			System.out.println("查询桥接词按1，生成新文本按2，最短路径按3，随机游走按4，退出按5：");
 			func = sc.nextLine();
-		}
+		
 		sc.close();
 		}
 	
