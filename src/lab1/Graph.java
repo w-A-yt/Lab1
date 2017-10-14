@@ -125,12 +125,16 @@ public String getStr()
 		myStr=myStr+str1;
 	}
 	scan.close();
-	System.out.println(myStr);
+	
 	return myStr;
 }
 
 public void showDirectedGraph() {
-    System.out.printf("List Graph:\n");
+<<<<<<< HEAD
+	
+=======
+    System.out.printf("List Graph are:\n");
+>>>>>>> C4
     for (int i = 0; i < mVertex.length; i++) {
     	if(!(mVertex[i].data.equals("*")))
     	{
