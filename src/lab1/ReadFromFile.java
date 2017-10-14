@@ -12,6 +12,7 @@ import java.util.regex.Pattern;
  
 public class ReadFromFile {
     public  static List<String >  getLowerCaseWords(File file) {
+    	System.out.println("hello1");
         Scanner scanner = null;
         Pattern pattern = Pattern.compile("[a-zA-Z]+");
         String text = "";
@@ -28,7 +29,7 @@ public class ReadFromFile {
             scanner.close();
         }
         Matcher matcher = pattern.matcher(text);
-        int number=0;
+        int number6=0;
         while (matcher.find()){
         	String s=matcher.group().toLowerCase();
         	//int flag=exist(words,s);
@@ -46,10 +47,7 @@ public class ReadFromFile {
         }
         
         
-      /* for(int i=0;i<words.size();i++)
-       {
-    	   
-       }*/
+     
         return words;
     }
     

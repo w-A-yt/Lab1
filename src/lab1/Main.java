@@ -6,6 +6,7 @@ import java.util.Scanner;
 
 public class Main {
 	public static void main(String[] args) {
+		System.out.println("hello2");
 		ReadFromFile read=new ReadFromFile();
 		System.out.println("请输入文件路径：");
 		Scanner sc = new Scanner(System.in);
