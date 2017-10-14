@@ -28,6 +28,7 @@ public class Main {
 		Graph g=new Graph(vex,edge,s);
 		g.showDirectedGraph();
 		String func;
+		System.out.println("lalalala");
 		System.out.println('\n'+"查询桥接词按1，生成新文本按2，最短路径按3，随机游走按4，退出按5：");
 		func = sc.nextLine();
 		

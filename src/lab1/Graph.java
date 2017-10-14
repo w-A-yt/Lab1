@@ -148,6 +148,7 @@ public void showDirectedGraph() {
 //查询word1与word2的桥接词
 public String queryBridgeWords(String word1, String word2)
 {
+	System.out.println("bridgewords");
 	String s="";
 	int num=0;
 	String[] Bword=new String[100];

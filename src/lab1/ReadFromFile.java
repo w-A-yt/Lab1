@@ -23,6 +23,7 @@ public class ReadFromFile {
         }
         if(scanner!=null){
         while(scanner.hasNextLine()){
+        	System.out.println("read next line");
             text+=scanner.nextLine();
         }
             scanner.close();
