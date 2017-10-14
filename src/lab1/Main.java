@@ -33,10 +33,10 @@ public class Main {
 		
 			if(func.equals("1")==true) {
 				String QS1,QS2;
-		        System.out.println("输入词桥查询的单词1：");
+		        System.out.println("输入词桥查询的word1：");
 		        QS1 = sc.nextLine();
 		        QS1.toLowerCase();
-		        System.out.println("输入词桥查询的单词2：");
+		        System.out.println("输入词桥查询的word2：");
 		        QS2 = sc.nextLine();
 		        QS2.toLowerCase();
 		        String result;
@@ -71,7 +71,7 @@ public class Main {
 			}else {
 				System.out.println("输入错误");
 			}
-			System.out.println("查询桥接词按1，生成新文本按2，最短路径按3，随机游走按4，退出按5：");
+			System.out.println("查询桥接词按1，生成新文本按2，最短路径按3，随机游走按4：");
 			func = sc.nextLine();
 		
 		sc.close();

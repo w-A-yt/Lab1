@@ -28,28 +28,12 @@ public class ReadFromFile {
             scanner.close();
         }
         Matcher matcher = pattern.matcher(text);
-        int number=0;
+        int number1=0;
         while (matcher.find()){
         	String s=matcher.group().toLowerCase();
-        	//int flag=exist(words,s);
-        	//words.
-        	/*if(flag==1)
-        	{
-        		
-        	}
-        	else
-        	{
-        		number++;
-        		g.
-        	}*/
             words.add(s);
         }
         
-        
-      /* for(int i=0;i<words.size();i++)
-       {
-    	   
-       }*/
         return words;
     }
     
