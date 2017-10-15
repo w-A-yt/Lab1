@@ -21,7 +21,7 @@ public class Main {
 		List<String> words = read.getLowerCaseWords(file); 
 		
 		read.WriteToFile(words, new File("C:/lab/output.txt"));
-		
+		System.out.print("hello git2");
 		int vex=words.size();
 		int edge=words.size()-1;
 		String [] s=new String[words.size()];
