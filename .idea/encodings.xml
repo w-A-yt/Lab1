@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/lab/w1/Graph.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/lab/w1/Main.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/lab/w1/ReadFromFile.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/lab/w1/ShowGraph.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test.txt" charset="UTF-8" />
+  </component>
+</project>
