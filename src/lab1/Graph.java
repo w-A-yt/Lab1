@@ -130,11 +130,11 @@ public String getStr()
 }
 
 public void showDirectedGraph() {
-<<<<<<< HEAD
+
 	
-=======
+
     System.out.printf("List Graph are:\n");
->>>>>>> C4
+
     for (int i = 0; i < mVertex.length; i++) {
     	if(!(mVertex[i].data.equals("*")))
     	{

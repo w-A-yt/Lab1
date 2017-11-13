@@ -30,18 +30,14 @@ public class ReadFromFile {
             scanner.close();
         }
         Matcher matcher = pattern.matcher(text);
-<<<<<<< HEAD
-=======
+
         int number1=0;
->>>>>>> C4
+
         while (matcher.find()){
         	String s=matcher.group().toLowerCase();
             words.add(s);
         }
         
-<<<<<<< HEAD
-=======
->>>>>>> C4
         return words;
     }
     
